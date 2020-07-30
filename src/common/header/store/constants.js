@@ -1,0 +1,6 @@
+export const Input_FOUCE = 'input_fouce'
+export const INOUT_BLUE = 'input_blue'
+export const HOT_ITEM = 'hot-item'
+export const Hot_IN = 'hot_in'
+export const HOT_OUT = 'hot_out'
+export const CHANGE_PAGE = 'change_page'

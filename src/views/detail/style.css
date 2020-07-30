@@ -1,0 +1,301 @@
+
+.normal h3{
+    text-align: center;
+    margin: 90px 0;
+    font-size:23px;
+    font-weight: 600;
+}
+.normal h1{
+    text-align: left;
+    font-size: 1.6em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-family: "PingFang SC", Verdana, "Helvetica Neue", "Microsoft Yahei", "Hiragino Sans GB", "Microsoft Sans Serif", "WenQuanYi Micro Hei", sans-serif;
+    color: rgb(0, 0, 0);
+    margin: calc(2rem - .14285em) 0 1rem;
+    font-weight: 700;
+    padding: 0;
+    display: block;
+    padding-left: 14px;
+}
+.normal blockquote{
+    display: block;
+    padding: 0px;
+    margin: 0 0 24px;
+    border-left: 8px solid #dddfe4;
+    background: #eef0f4;
+    overflow: auto;
+    color: rgba(0,0,0,.5);
+}
+
+.normal h2{
+    font-size: 26px;
+    margin-top: 1.2em;
+    text-align: left;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-weight: bold;
+    font-family: PingFang SC,Verdana,Helvetica Neue,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans-serif;
+
+}
+
+.normal p{
+    position: relative;
+    margin: 20px auto;
+   
+    font-size: 16px;
+    line-height: 28px;
+    text-align: justify;
+    margin: 20px 40px 0px 0px;
+    margin-bottom: 1.2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #4d4d4d;
+
+}
+
+
+.normal p code{
+    font-family: Courier,Courier New,monospace!important;
+    background-color: #f2f2f2!important;
+    color: #c7254e!important;
+    padding: 1px 5px!important;
+    border-radius: 2px!important;
+    margin: 0 3px!important;
+    font-style: normal!important;
+}
+.normal p img{
+   
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+
+
+ .normal pre{
+    padding: 1em 1.5em;
+    display: block;
+    margin-bottom: 1.2em;
+    overflow-x: auto;
+    text-align: left;       
+    font: 500 14px Source Code Pro,DejaVu Sans Mono,Ubuntu Mono,Anonymous Pro,Droid Sans Mono,Menlo,Monaco,Consolas,Inconsolata,Courier,monospace,PingFang SC,Microsoft YaHei,sans-serif!important;
+}
+  
+
+.normal ul{
+    margin-left: 1.3em;
+    list-style: disc;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;   
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+  
+}
+ul li{
+        padding: 4px 0;
+        margin:10px;
+        font-size: 16px;
+        line-height: 1.8;
+    
+}
+ul li code{
+    font-family: Courier,Courier New,monospace;
+    background-color: #f2f2f2;
+    color: #c7254e;
+    padding: 1px 5px;
+    border-radius: 2px;
+    margin: 0 3px;
+    font-style: normal;
+}
+.normal ol{
+    margin-left: 1.3em;
+    list-style: decimal;
+    margin-bottom: 1.2em;
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;   
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, Arial, sans-serif;
+}
+.normal ol li{
+    padding: 4px 0;
+    margin:10px;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.normal ol li code{
+    font-family: Courier,Courier New,monospace!important;
+    background-color: #f2f2f2!important;
+    color: #c7254e!important;
+    padding: 1px 5px!important;
+    border-radius: 2px!important;
+    margin: 0 3px!important;
+    font-style: normal!important;
+}
+.normal table{
+    width: 100%;
+    background: #FFF;
+    margin: 1em 0;
+    border: 1px solid rgba(34,36,38,.15);
+    box-shadow: none;
+    border-radius: .28571429rem;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.normal table thead{
+    box-shadow: none;
+    background: #f0f0f0;
+}
+.normal table tr{
+    white-space: nowrap;
+}
+.normal table thead th{
+    cursor: auto;
+    background: #F9FAFB;
+    text-align: inherit;
+    color: rgba(0,0,0,.87);
+    padding: .92857143em .78571429em;
+    vertical-align: inherit;
+    font-style: none;
+    font-weight: 700;
+    text-transform: none;
+    border-bottom: 1px solid rgba(34,36,38,.1);
+    border-left: none;
+    border: 1px solid #ddd;
+}
+table td{
+    border: 1px solid #ddd;
+    padding: .5em 1em;
+    color: #666;
+    padding: .78571429em;
+    text-align: inherit;
+}
+.wechats{
+    top: 75px!important; 
+    right: 64px!important; 
+    left: auto!important; 
+    bottom: auto!important; 
+    width: 130px !important;
+}
+.show-enter{
+    opacity: 0;
+
+}
+.show-enter-active{
+    opacity: 1;
+    transition: all 1000ms ease-out;
+}
+.show-enter-done{
+    opacity: 1;
+}
+
+.show-exit{
+    opacity: 1;
+}
+.show-exit-active{
+    opacity: 0;
+    transition: all 300ms ease-out;
+}
+.show-exit-done{
+    opacity: 0;
+}
+body html{
+    scroll-behavior: smooth;
+}
+.makedir{
+    top: 12px!important; right: 70px!important; left: auto!important; bottom: auto!important; width: 250px !important; display: block !important;
+}
+.makedir a{
+    display: block;
+    padding: 4px 0;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+a.toc-link {
+    color: currentColor;
+    height: 100%;
+}
+.is-active-link {
+    font-weight: 700;
+    
+}
+.toc-link:before {
+    content: " ";
+    display: inline-block;
+    height: 20px;
+    left: 0;
+    margin-top: -1px;
+    position: absolute;
+    width: 2px;
+}
+.is-active-link:before {
+    background-color: #54bc4b;
+}
+.cssdir-enter{
+    opacity: 0;
+    transform:translateX(-10px)!important;
+}
+.cssdir-enter-active{
+    opacity: 1;
+    transform:translateX(0px)!important;
+    transition: all 1000ms ease-out;
+}
+.cssdir-enter-done{
+    opacity: 1;
+}
+
+.cssdir-exit{
+    opacity: 1;
+    transform:translateX(0px)!important;
+}
+.cssdir-exit-active{
+    opacity: 0;
+    transform:translateX(-10px)!important;
+    transition: all 1000ms ease-out;
+
+}
+.cssdir-exit-done{
+    opacity: 1;
+}
+.is-collapsible{
+    margin: 2px!important;
+}
+.is-collapsible li{
+    margin: 0px !important;
+}
+.dirt-enter{
+    max-height: 0;
+}
+.dirt-enter-active{
+    max-height: 800px;
+    transition: all 500ms ease-out;
+}
+.dirt-enter-done{
+    max-height: 800px;
+}
+.dirt-exit{
+    max-height: 800px;
+}
+.dirt-exit-active{
+    max-height: 0px;
+    transition: all 500ms ease-out;
+}
+.newspaper li{
+    margin: 0px!important;
+    padding: 0px!important;
+    line-height: 1.5!important;
+}
+.nginx li{
+    margin-left: 8px!important;
+}
+code{
+    background-color: black!important;
+    color: white!important;
+}
